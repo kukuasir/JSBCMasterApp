@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0413BA5C221A55FE00C67B96 /* dependents.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0413BA5B221A55FE00C67B96 /* dependents.rtf */; };
 		049FD227221A499000E5F6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049FD21E221A499000E5F6BC /* Assets.xcassets */; };
 		049FD229221A499000E5F6BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FD223221A499000E5F6BC /* main.m */; };
 		049FD22A221A499000E5F6BC /* JSBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FD224221A499000E5F6BC /* JSBCAppDelegate.m */; };
@@ -43,10 +42,10 @@
 		A2B7F7D1221AEA0600E9B117 /* dependents.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2B7F7D0221AEA0600E9B117 /* dependents.txt */; };
 		A2B7F7D3221AEA6B00E9B117 /* dependents.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2B7F7D2221AEA6B00E9B117 /* dependents.txt */; };
 		A2B7F7D5221AEA7300E9B117 /* dependents.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2B7F7D4221AEA7300E9B117 /* dependents.txt */; };
+		A2B7F7D7221AF46F00E9B117 /* dependents.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2B7F7D6221AF46F00E9B117 /* dependents.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0413BA5B221A55FE00C67B96 /* dependents.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = dependents.rtf; sourceTree = "<group>"; };
 		049FD204221A48A400E5F6BC /* JSBCMasterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBCMasterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049FD21E221A499000E5F6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049FD21F221A499000E5F6BC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +101,7 @@
 		A2B7F7D0221AEA0600E9B117 /* dependents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dependents.txt; sourceTree = "<group>"; };
 		A2B7F7D2221AEA6B00E9B117 /* dependents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dependents.txt; sourceTree = "<group>"; };
 		A2B7F7D4221AEA7300E9B117 /* dependents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dependents.txt; sourceTree = "<group>"; };
+		A2B7F7D6221AF46F00E9B117 /* dependents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dependents.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,11 +163,11 @@
 		049FD221221A499000E5F6BC /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				A2B7F7D6221AF46F00E9B117 /* dependents.txt */,
 				049FD222221A499000E5F6BC /* JSBCAppDelegate.h */,
 				049FD224221A499000E5F6BC /* JSBCAppDelegate.m */,
 				049FD22B221A49D000E5F6BC /* JSBCMaster-Prefix.pch */,
 				049FD223221A499000E5F6BC /* main.m */,
-				0413BA5B221A55FE00C67B96 /* dependents.rtf */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -554,7 +554,6 @@
 				049FD27E221A4D5300E5F6BC /* user_blue@2x.png in Resources */,
 				049FD291221A4DBE00E5F6BC /* video_blue@2x.png in Resources */,
 				049FD254221A4CB600E5F6BC /* home_red@2x.png in Resources */,
-				0413BA5C221A55FE00C67B96 /* dependents.rtf in Resources */,
 				049FD267221A4CE500E5F6BC /* live_red@2x.png in Resources */,
 				049FD2A8221A513A00E5F6BC /* Default-568h@2x.png in Resources */,
 				049FD24E221A4CA300E5F6BC /* home_blue@2x.png in Resources */,
@@ -563,6 +562,7 @@
 				049FD264221A4CE500E5F6BC /* live_green@2x.png in Resources */,
 				049FD269221A4CE500E5F6BC /* live_blue@2x.png in Resources */,
 				A2B7F7D5221AEA7300E9B117 /* dependents.txt in Resources */,
+				A2B7F7D7221AF46F00E9B117 /* dependents.txt in Resources */,
 				049FD227221A499000E5F6BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
