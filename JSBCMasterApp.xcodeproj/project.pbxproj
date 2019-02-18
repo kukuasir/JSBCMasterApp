@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0413BA5C221A55FE00C67B96 /* dependents.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0413BA5B221A55FE00C67B96 /* dependents.rtf */; };
+		0413BA5E221A562B00C67B96 /* dependents.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0413BA5D221A562B00C67B96 /* dependents.rtf */; };
+		0413BA60221A564300C67B96 /* dependents.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0413BA5F221A564300C67B96 /* dependents.rtf */; };
+		0413BA62221A565E00C67B96 /* dependents.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0413BA61221A565E00C67B96 /* dependents.rtf */; };
 		049FD227221A499000E5F6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049FD21E221A499000E5F6BC /* Assets.xcassets */; };
 		049FD229221A499000E5F6BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FD223221A499000E5F6BC /* main.m */; };
 		049FD22A221A499000E5F6BC /* JSBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FD224221A499000E5F6BC /* JSBCAppDelegate.m */; };
@@ -42,6 +46,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0413BA5B221A55FE00C67B96 /* dependents.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = dependents.rtf; sourceTree = "<group>"; };
+		0413BA5D221A562B00C67B96 /* dependents.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = dependents.rtf; sourceTree = "<group>"; };
+		0413BA5F221A564300C67B96 /* dependents.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = dependents.rtf; sourceTree = "<group>"; };
+		0413BA61221A565E00C67B96 /* dependents.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = dependents.rtf; sourceTree = "<group>"; };
 		049FD204221A48A400E5F6BC /* JSBCMasterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBCMasterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049FD21E221A499000E5F6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049FD21F221A499000E5F6BC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,6 +167,7 @@
 				049FD224221A499000E5F6BC /* JSBCAppDelegate.m */,
 				049FD22B221A49D000E5F6BC /* JSBCMaster-Prefix.pch */,
 				049FD223221A499000E5F6BC /* main.m */,
+				0413BA5B221A55FE00C67B96 /* dependents.rtf */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -177,6 +186,7 @@
 		049FD22C221A4A4B00E5F6BC /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				0413BA5F221A564300C67B96 /* dependents.rtf */,
 				049FD25F221A4CE500E5F6BC /* Blue */,
 				049FD255221A4CE500E5F6BC /* Green */,
 				049FD25A221A4CE500E5F6BC /* Red */,
@@ -197,6 +207,7 @@
 		049FD22E221A4A4B00E5F6BC /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				0413BA61221A565E00C67B96 /* dependents.rtf */,
 				049FD284221A4DBE00E5F6BC /* Blue */,
 				049FD289221A4DBE00E5F6BC /* Green */,
 				049FD27F221A4DBE00E5F6BC /* Red */,
@@ -207,6 +218,7 @@
 		049FD22F221A4A4B00E5F6BC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0413BA5D221A562B00C67B96 /* dependents.rtf */,
 				049FD23A221A4B3800E5F6BC /* Blue */,
 				049FD23D221A4B3800E5F6BC /* Green */,
 				049FD240221A4B3800E5F6BC /* Red */,
@@ -536,11 +548,15 @@
 			files = (
 				049FD292221A4DBE00E5F6BC /* video_green@2x.png in Resources */,
 				049FD28F221A4DBE00E5F6BC /* video_red@2x.png in Resources */,
+				0413BA5E221A562B00C67B96 /* dependents.rtf in Resources */,
 				049FD251221A4CAD00E5F6BC /* home_green@2x.png in Resources */,
 				049FD279221A4D5300E5F6BC /* user_green@2x.png in Resources */,
 				049FD27E221A4D5300E5F6BC /* user_blue@2x.png in Resources */,
 				049FD291221A4DBE00E5F6BC /* video_blue@2x.png in Resources */,
+				0413BA60221A564300C67B96 /* dependents.rtf in Resources */,
 				049FD254221A4CB600E5F6BC /* home_red@2x.png in Resources */,
+				0413BA5C221A55FE00C67B96 /* dependents.rtf in Resources */,
+				0413BA62221A565E00C67B96 /* dependents.rtf in Resources */,
 				049FD267221A4CE500E5F6BC /* live_red@2x.png in Resources */,
 				049FD2A8221A513A00E5F6BC /* Default-568h@2x.png in Resources */,
 				049FD24E221A4CA300E5F6BC /* home_blue@2x.png in Resources */,
