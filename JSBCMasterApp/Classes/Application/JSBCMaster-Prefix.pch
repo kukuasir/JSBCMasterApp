@@ -1,0 +1,121 @@
+//
+//  PRJ_LZNEWS-Prefix.pch
+//  PRJ_LZNEWS
+//
+//  Created by launching on 2017/7/18.
+//  Copyright © 2017年 launching. All rights reserved.
+//
+
+#ifndef PRJ_LZNEWS_Prefix_pch
+#define PRJ_LZNEWS_Prefix_pch
+
+#import "PRJ_JINTAN-Environment.h"
+
+#import <Availability.h>
+
+#ifndef __IPHONE_8_0
+#warning "This project uses features only available in iOS SDK 8.0 and later."
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <NIServices/NIServices.h>
+    #import <NIControls/NIControls.h>
+
+    #import <ReactiveObjC/ReactiveObjC.h>
+    #import <BlocksKit/BlocksKit.h>
+    #import <BlocksKit/BlocksKit+UIKit.h>
+    #import <AFNetworking/AFNetworking.h>
+    #import <YYKit/YYKit.h>
+    #import <IQKeyboardManager/IQKeyboardManager.h>
+    #import <SDAutoLayout/SDAutoLayout.h>
+    #import <MJRefresh/MJRefresh.h>
+
+    // SDWebImage
+    #import "UIImageView+WebCache.h"
+    #import "UIButton+WebCache.h"
+
+    #if HAS_POD(CocoaLumberjack)
+        #import <CocoaLumberjack/CocoaLumberjack.h>
+
+        #if HAS_POD(Sidecar)
+            #import <Sidecar/Sidecar.h>
+        #endif
+
+        #ifdef DEBUG
+            static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+        #else
+            static const DDLogLevel ddLogLevel = DDLogLevelWarning;
+        #endif
+    #endif
+
+
+
+    #if HAS_POD_INCLUDE(libextobjc, extobjc)
+        // A lot of the extobjc stuff is a little crazy.
+        // We're including it mainly for 2 things:
+        // The Scope module which gives @weakify and @strongify, and
+        // the KeyPathCoding module which gives @keypath and @collectionkeypath.
+        // Proceed with caution with the other modules.
+        #import <libextobjc/EXTScope.h>
+        #import <libextobjc/EXTKeyPathCoding.h>
+    #endif
+
+    #if HAS_POD(Asterism)
+        #import <Asterism/Asterism.h>
+    #endif
+
+    #import "JSBCInterfaceUtil.h"
+    #import "JTAppDelegate.h"
+    #import "JTScreenUtil.h"
+    #import "JTConstans.h"
+//    #import "LCUtils.h"
+    #import "JTCategories.h"
+    #import "JTSettingModel.h"
+    #import "JTBaseModel.h"
+//    #import "LCUserModel.h"
+//    #import "LCNewsModel.h"
+
+    #import "UMSLoginViewBoard.h"
+
+    #import "JxbDebugTool.h"
+
+    #import "FMDB.h"
+    #import "JTTabBarUtil.h"
+    #import "NIViewBoard+HUD.h"
+    #import "JTLoadingUtil.h"
+    #import "RWNetworkManager.h"
+
+//    #import "BDIAgent.h"
+    #import "JTViewModelFinder.h"
+    #import "JTTabBarBoard.h"
+    #import "UIImage+Gray.h"
+    #import "UIImage+JTExtensions.h"
+    #import "JTAppVersionUtil.h"
+//    #import "LCAppVersionUtil.h"
+    #import "JTAttributedUtil.h"
+    #import "JTSandboxUtil.h"
+    #import "JTBaseModel.h"    //
+    #import "UMSAvatar.h"
+    #import "BBSSDK.h"
+    #import <BaiduMobStat/BaiduMobStat.h>
+    #import "JTReadListUtil.h"
+#endif  /* __OBJC__ */
+
+
+#define APP_DELEGATE ((JTAppDelegate *)[UIApplication sharedApplication].delegate)
+
+#define NORMAL_RED  RGB (231,74,75)
+#define NORMAL_HEAD_LINE_GRAY RGB (240, 241, 242)
+#define NORMAL_TEXT_GRAY RGB (125,130,135)
+#define NORMAL_LAYER_GRAY RGB (232, 233, 233)
+
+#if TARGET_IPHONE_SIMULATOR
+#else
+//#define LN_ENABLE_SPEECH 1
+#endif
+
+#endif /* PRJ_LZNEWS_Prefix_pch */
