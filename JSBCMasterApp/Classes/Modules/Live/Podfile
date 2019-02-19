@@ -1,2 +1,2 @@
-pod 'FMDB', '~> 2.5'
-pod 'MJRefresh'
+#pod 'FMDB', '~> 2.5'
+#pod 'MJRefresh'
