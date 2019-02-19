@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048F8831221BA8AB009D8512 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 048F8830221BA8AB009D8512 /* Podfile */; };
+		048F8833221BA9AE009D8512 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 048F8832221BA9AE009D8512 /* Podfile */; };
+		048F8835221BA9B4009D8512 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 048F8834221BA9B4009D8512 /* Podfile */; };
+		048F8837221BA9B9009D8512 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 048F8836221BA9B9009D8512 /* Podfile */; };
 		049FD227221A499000E5F6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049FD21E221A499000E5F6BC /* Assets.xcassets */; };
 		049FD229221A499000E5F6BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FD223221A499000E5F6BC /* main.m */; };
 		049FD22A221A499000E5F6BC /* JSBCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FD224221A499000E5F6BC /* JSBCAppDelegate.m */; };
@@ -39,13 +43,13 @@
 		049FD2A3221A4FDA00E5F6BC /* JSBCUserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FD2A2221A4FDA00E5F6BC /* JSBCUserViewModel.m */; };
 		049FD2A6221A4FF000E5F6BC /* JSBCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FD2A5221A4FF000E5F6BC /* JSBCPickerView.m */; };
 		049FD2A8221A513A00E5F6BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 049FD2A7221A513A00E5F6BC /* Default-568h@2x.png */; };
-		A2B7F7D1221AEA0600E9B117 /* dependents.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2B7F7D0221AEA0600E9B117 /* dependents.txt */; };
-		A2B7F7D3221AEA6B00E9B117 /* dependents.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2B7F7D2221AEA6B00E9B117 /* dependents.txt */; };
-		A2B7F7D5221AEA7300E9B117 /* dependents.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2B7F7D4221AEA7300E9B117 /* dependents.txt */; };
-		A2B7F7D7221AF46F00E9B117 /* dependents.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2B7F7D6221AF46F00E9B117 /* dependents.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048F8830221BA8AB009D8512 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		048F8832221BA9AE009D8512 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		048F8834221BA9B4009D8512 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		048F8836221BA9B9009D8512 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		049FD204221A48A400E5F6BC /* JSBCMasterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBCMasterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049FD21E221A499000E5F6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049FD21F221A499000E5F6BC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,10 +102,6 @@
 		049FD2A4221A4FF000E5F6BC /* JSBCPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSBCPickerView.h; sourceTree = "<group>"; };
 		049FD2A5221A4FF000E5F6BC /* JSBCPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBCPickerView.m; sourceTree = "<group>"; };
 		049FD2A7221A513A00E5F6BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A2B7F7D0221AEA0600E9B117 /* dependents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dependents.txt; sourceTree = "<group>"; };
-		A2B7F7D2221AEA6B00E9B117 /* dependents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dependents.txt; sourceTree = "<group>"; };
-		A2B7F7D4221AEA7300E9B117 /* dependents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dependents.txt; sourceTree = "<group>"; };
-		A2B7F7D6221AF46F00E9B117 /* dependents.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dependents.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +163,7 @@
 		049FD221221A499000E5F6BC /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				A2B7F7D6221AF46F00E9B117 /* dependents.txt */,
+				048F8830221BA8AB009D8512 /* Podfile */,
 				049FD222221A499000E5F6BC /* JSBCAppDelegate.h */,
 				049FD224221A499000E5F6BC /* JSBCAppDelegate.m */,
 				049FD22B221A49D000E5F6BC /* JSBCMaster-Prefix.pch */,
@@ -186,7 +186,7 @@
 		049FD22C221A4A4B00E5F6BC /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				A2B7F7D2221AEA6B00E9B117 /* dependents.txt */,
+				048F8834221BA9B4009D8512 /* Podfile */,
 				049FD25F221A4CE500E5F6BC /* Blue */,
 				049FD255221A4CE500E5F6BC /* Green */,
 				049FD25A221A4CE500E5F6BC /* Red */,
@@ -207,7 +207,7 @@
 		049FD22E221A4A4B00E5F6BC /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				A2B7F7D4221AEA7300E9B117 /* dependents.txt */,
+				048F8836221BA9B9009D8512 /* Podfile */,
 				049FD284221A4DBE00E5F6BC /* Blue */,
 				049FD289221A4DBE00E5F6BC /* Green */,
 				049FD27F221A4DBE00E5F6BC /* Red */,
@@ -218,7 +218,7 @@
 		049FD22F221A4A4B00E5F6BC /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A2B7F7D0221AEA0600E9B117 /* dependents.txt */,
+				048F8832221BA9AE009D8512 /* Podfile */,
 				049FD23A221A4B3800E5F6BC /* Blue */,
 				049FD23D221A4B3800E5F6BC /* Green */,
 				049FD240221A4B3800E5F6BC /* Red */,
@@ -548,21 +548,21 @@
 			files = (
 				049FD292221A4DBE00E5F6BC /* video_green@2x.png in Resources */,
 				049FD28F221A4DBE00E5F6BC /* video_red@2x.png in Resources */,
-				A2B7F7D3221AEA6B00E9B117 /* dependents.txt in Resources */,
 				049FD251221A4CAD00E5F6BC /* home_green@2x.png in Resources */,
 				049FD279221A4D5300E5F6BC /* user_green@2x.png in Resources */,
 				049FD27E221A4D5300E5F6BC /* user_blue@2x.png in Resources */,
 				049FD291221A4DBE00E5F6BC /* video_blue@2x.png in Resources */,
 				049FD254221A4CB600E5F6BC /* home_red@2x.png in Resources */,
 				049FD267221A4CE500E5F6BC /* live_red@2x.png in Resources */,
+				048F8833221BA9AE009D8512 /* Podfile in Resources */,
+				048F8835221BA9B4009D8512 /* Podfile in Resources */,
+				048F8831221BA8AB009D8512 /* Podfile in Resources */,
+				048F8837221BA9B9009D8512 /* Podfile in Resources */,
 				049FD2A8221A513A00E5F6BC /* Default-568h@2x.png in Resources */,
 				049FD24E221A4CA300E5F6BC /* home_blue@2x.png in Resources */,
-				A2B7F7D1221AEA0600E9B117 /* dependents.txt in Resources */,
 				049FD27C221A4D5300E5F6BC /* user_red@2x.png in Resources */,
 				049FD264221A4CE500E5F6BC /* live_green@2x.png in Resources */,
 				049FD269221A4CE500E5F6BC /* live_blue@2x.png in Resources */,
-				A2B7F7D5221AEA7300E9B117 /* dependents.txt in Resources */,
-				A2B7F7D7221AF46F00E9B117 /* dependents.txt in Resources */,
 				049FD227221A499000E5F6BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
